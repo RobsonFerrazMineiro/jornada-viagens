@@ -37,5 +37,11 @@ legend {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   font-family: "Montserrat", sans-serif;
+  background-color: var(--background-primary-color);
+  color: var(--text-primary-color);
+  line-height: normal;
 }
