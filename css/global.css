@@ -45,3 +45,30 @@ body {
   color: var(--text-primary-color);
   line-height: normal;
 }
+
+.section-title h2 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  text-align: center;
+}
+
+.section-title hr {
+  margin: 16px auto 32px;
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section-title hr {
+    margin: 16px auto 64px;
+  }
+}
