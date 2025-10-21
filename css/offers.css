@@ -1,3 +1,10 @@
+.offers-cards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  gap: 16px;
+}
+
 .card {
   color: var(--text-secondary-color);
   background-color: black;
