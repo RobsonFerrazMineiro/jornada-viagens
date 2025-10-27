@@ -1,14 +1,8 @@
 .categories {
-  margin-bottom: 88px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
-}
-
-.categories .section-title {
-  width: 280px;
-  margin: 0 auto;
 }
 
 .categories-cards {
@@ -28,7 +22,7 @@
   background-color: var(--background-secondary-color);
   text-align: center;
   border-radius: 16px;
-  padding: 72px 24px 24px 24px;
+  padding: 60px 24px 24px 24px;
   box-sizing: border-box;
   text-decoration: none;
   color: var(--text-primary-color);
@@ -53,9 +47,13 @@
   text-align: center;
   color: var(--text-primary-color);
   margin: 0;
-  padding: 0;
+
   line-height: 32px;
   word-break: break-all;
+}
+
+.category-title {
+  padding-top: 14px;
 }
 
 @media screen and (min-width: 768px) {
@@ -63,10 +61,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-  }
-
-  .categories .section-title {
-    width: 100%;
   }
 
   .categories-cards .card {
@@ -77,10 +71,6 @@
 @media screen and (min-width: 1024px) {
   .categories-cards .card {
     width: 440px;
-  }
-
-  .categories {
-    margin-bottom: 104px;
   }
 }
 

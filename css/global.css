@@ -46,6 +46,20 @@ body {
   line-height: normal;
 }
 
+section {
+  width: 312px;
+  margin: 0 auto 88px;
+}
+
+section.hero {
+  width: 100%;
+}
+
+.section-title {
+  width: 280px;
+  margin: 0 auto 32px;
+}
+
 .section-title h2 {
   margin: 0;
   font-size: 28px;
@@ -54,7 +68,7 @@ body {
 }
 
 .section-title hr {
-  margin: 16px auto 32px;
+  margin: 16px auto 0;
   width: 180px;
   height: 4px;
   background-color: var(--secondary-color);
@@ -63,7 +77,7 @@ body {
 
 .button {
   display: inline-block;
-  width: 280px;
+  width: 312px;
   height: 64px;
   background-color: var(--secondary-color);
   color: var(--text-secondary-color);
@@ -75,16 +89,36 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .section-title {
+    width: 100%;
+    margin: 0 auto 32px;
+  }
+
   .section-title h2 {
     font-size: 32px;
+  }
+
+  section {
+    width: 656px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .section-title hr {
-    margin: 16px auto 64px;
+  section {
+    width: 904px;
+    margin: 0 auto 104px;
+  }
+
+  .section-title {
+    margin: 0 auto 64px;
   }
   .button:hover {
     background-color: var(--primary-color);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  section {
+    width: 1200px;
   }
 }
