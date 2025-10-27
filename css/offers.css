@@ -1,12 +1,12 @@
-.offers {
-  margin-bottom: 88px;
-}
-
 .offers-cards {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
+}
+
+.offers .section-title {
+  width: 100%;
 }
 
 .offers-cards .card {
@@ -50,6 +50,10 @@
   background-size: cover;
 }
 
+.offers-cards .card .button {
+  width: 280px;
+}
+
 @media screen and (min-width: 768px) {
   .offers-cards {
     flex-direction: row;
@@ -62,10 +66,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .offers {
-    margin-bottom: 104px;
-  }
-
   .offers-cards .card {
     width: 440px;
     height: 308px;
