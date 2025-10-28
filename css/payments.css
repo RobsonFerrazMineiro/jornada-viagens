@@ -1,0 +1,57 @@
+.payments .image-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+}
+
+.payments .image.first {
+  background: url(../img/bage-mobile.jpg) no-repeat center center;
+  background-size: cover;
+  height: 254px;
+}
+
+.payments .image.second {
+  background: url(../img/passport-mobile.jpg) no-repeat center center;
+  background-size: cover;
+  height: 254px;
+}
+
+.payments .image.third {
+  grid-column: span 2;
+  background: url(../img/people-mobile.jpg) no-repeat center center;
+  background-size: cover;
+  height: 182px;
+}
+@media screen and (min-width: 768px) {
+  .payments .image.first {
+    background: url(../img/bage-tablet-desk.jpg) no-repeat center center;
+    background-size: cover;
+  }
+
+  .payments .image.second {
+    background: url(../img/passport-tablet-desk.jpg) no-repeat center center;
+    background-size: cover;
+  }
+
+  .payments .image.third {
+    background: url(../img/people-tablet-desk.jpg) no-repeat center center;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments {
+    display: grid;
+    grid-template-columns: 384px 1fr;
+    column-gap: 24px;
+  }
+  .payments .text-content {
+    padding: 0;
+  }
+  .payments .payments-title {
+    grid-column: span 2;
+    padding: 0;
+  }
+}
