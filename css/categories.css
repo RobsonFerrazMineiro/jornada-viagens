@@ -42,8 +42,6 @@
 }
 
 .categories-cards .card h3 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
   text-align: center;
   color: var(--text-primary-color);
   margin: 0;
