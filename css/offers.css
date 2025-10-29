@@ -44,6 +44,22 @@
 
 .card.japao {
   background: url(../img/bg-card-japao.jpg) no-repeat center center;
+
+  background-size: cover;
+}
+
+.card.san-andreas {
+  background: url(../img/bg-card-san-andreas.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.card.paraiba {
+  background: url(../img/bg-card-paraiba.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.card.manaus {
+  background: url(../img/bg-card-manaus.jpg) no-repeat center center;
   background-size: cover;
 }
 
