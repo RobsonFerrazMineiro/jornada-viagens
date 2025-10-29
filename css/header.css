@@ -79,7 +79,7 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
-  header {
+  .main-header {
     padding: 38px 120px;
   }
   .logo {
@@ -100,7 +100,7 @@ nav {
 }
 
 @media screen and (min-width: 1440px) {
-  header {
+  .main-header {
     padding: 38px 160px;
   }
 }
