@@ -8,6 +8,12 @@
   background-size: cover;
 }
 
+.hero-footer {
+  height: 400px;
+  background: url(../img/hero-footer-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
 .hero h2 {
   margin: 0;
   padding: 88px 24px;
@@ -24,6 +30,11 @@
     background-size: cover;
   }
 
+  .hero-footer {
+    background: url(../img/hero-footer-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
   .hero h2 {
     padding: 88px 60px;
     font-size: 32px;
@@ -34,6 +45,12 @@
 @media screen and (min-width: 1024px) {
   .hero-img {
     background: url(../img/hero-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .hero-footer {
+    height: 600px;
+    background: url(../img/hero-footer-desktop.jpg) no-repeat;
     background-size: cover;
   }
 

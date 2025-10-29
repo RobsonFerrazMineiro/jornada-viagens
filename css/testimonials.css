@@ -56,4 +56,7 @@
     flex-direction: row;
     gap: 24px;
   }
+  .testimonial-container article {
+    justify-content: space-between;
+  }
 }
