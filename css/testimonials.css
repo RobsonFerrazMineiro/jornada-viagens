@@ -50,3 +50,10 @@
   font-size: 32px;
   line-height: 32px;
 }
+
+@media screen and (min-width: 1024px) {
+  .testimonial-container {
+    flex-direction: row;
+    gap: 24px;
+  }
+}
